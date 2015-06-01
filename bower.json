@@ -1,0 +1,9 @@
+{
+  "name": "dz",
+  "dependencies": {
+    "jquery": "1.11",
+    "normalize": "~1.0.4",
+    "normalize.css": "~3.0.3",
+    "html5shiv": "~3.7.2"
+  }
+}
