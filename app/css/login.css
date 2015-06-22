@@ -1,0 +1,59 @@
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    zoom:1; /* Хак для IE 6 и 7 */
+}
+html, body, .wrapper { 
+	height: 100%; 
+}
+body > .wrapper {
+	height: auto; min-height: 100%;
+	padding-bottom: 80px;
+}
+
+body {
+	font-family: 'fira_sanslight';
+	background: url(../img/body_bg.jpg) repeat;
+	height: 100%;
+}
+p {
+	margin: 0;
+}
+.wrapper {
+	min-width: 980px;
+}
+
+footer {
+	background: url(../img/bg_line.png) no-repeat top center #eff3f7;
+	margin-top: -80px;
+	height: 80px;
+	position: relative;
+}
+footer .footer_content_wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+.login {
+	background: url(../img/ico_sp.png) no-repeat -5px -2px;
+	width: 20px;
+	height: 35px;
+	margin-left: 30px;
+	margin-top: 24px;
+	float: left;
+
+}
+.login:hover {
+	background: url(../img/ico_sp.png) no-repeat -35px -2px;
+	cursor: pointer;
+}
+.copyright {
+	font-size: 13px;
+	margin: 31px auto 0;
+	text-align: center;
+}
